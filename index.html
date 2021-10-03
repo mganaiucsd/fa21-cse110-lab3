@@ -76,13 +76,34 @@
             <form onsubmit="alert('Available')">
                 <fieldset>
                     <label for="Name">Name</label><br />
-                    <input type="text" placeholder="Enter Name" /><br />
+                    <input type="text" placeholder="Enter Name" />
+                    <br />
                     
                     <label for="start">Start date available:</label>
                     <input type="date" id="start" name="meet-start" value="2021-10-04" min="2021-10-04" max="2021-12-31">
-                    
+                    <br />
+
                     <input type="radio" id="good" name="choice">
-                    <label for="good">Coming?</label><br />
+                    <label for="good">Coming?</label>
+                    <br />
+
+                    <label for="jobs">My Tasks:</label>
+                    <textarea id="jobs" name="jobs" rows="5" cols="40">
+                        The tasks I will complete.
+                    </textarea>
+                    <br />
+
+                    <input type="checkbox" id="willcome" name="willcome" value="Come">
+                    <label for="willcome"> I will absolutely come</label>
+                    <br />
+
+                    <label for="Locations">Choose your location from the list:</label>
+                    <input list="Locations" name="Locations" id="Locations">
+                    <datalist id="Locations">
+                        <option value="Home">
+                        <option value="Office">
+                    </datalist>
+                    <br />
 
                     <button>Available Next Meeting?</button>
 
