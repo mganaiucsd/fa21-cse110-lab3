@@ -75,13 +75,17 @@
             <h5> Next meeting availability </h5>
             <form onsubmit="alert('Available')">
                 <fieldset>
-                    <input type="text" placeholder="Enter Name" />
-                    <button>Available Next Meeting?</button><br />
-
+                    <label for="Name">Name</label><br />
+                    <input type="text" placeholder="Enter Name" /><br />
+                    
+                    <label for="start">Start date available:</label>
+                    <input type="date" id="start" name="meet-start" value="2021-10-04" min="2021-10-04" max="2021-12-31">
+                    
                     <input type="radio" id="good" name="choice">
                     <label for="good">Coming?</label><br />
 
-                    
+                    <button>Available Next Meeting?</button>
+
                 </fieldset>
             </form>
             <br />
