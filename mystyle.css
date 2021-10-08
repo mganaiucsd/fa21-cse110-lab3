@@ -11,20 +11,32 @@ h2.date {
     color: rgb(57, 100, 68);
 }
 
-#agenda {
+h4 {
     color: hsl(34, 85%, 46%);
 }
 
 p.todo {
-    font-size: 2em;
+    font-size: 1.5em;
     color: #441315;
 }
 
-.names li {
+.names, li {
     font-size: 1.3rem;
 }
 
-.miscList li i {
+.lastWork, li, i {
+    width: 50vw;
+}
+
+.nextWork, li, i {
+    font-size: 15pt;
+}
+
+p.tldr {
+    font-size: 4mm;
+}
+
+.miscList, li, i {
     font-size: 20px;
 }
 
