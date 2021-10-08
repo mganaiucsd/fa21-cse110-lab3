@@ -81,16 +81,16 @@ li, b {
     width: 50vw;
 }
 
-li b.justme {
-    display: block;
-}
-
 .nextWork li i {
     font-size: 15pt;
 }
 
 p.tldr {
     font-size: 4mm;
+}
+
+b.number {
+    display: none;
 }
 /*
 .miscList li i {
