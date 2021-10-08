@@ -17,11 +17,7 @@ h3 + h4{
     border-style: solid;
     border-color: blue;
     border-top-right-radius: 10% 25%;
-    margin-top: 2px;
-    margin-right: 2px;
-    margin-bottom: -2px;
-    margin-left: -2px;
-    margin-left: 4em;
+    margin: auto;
 }
     
 ol ~ h4 {
@@ -44,11 +40,15 @@ h5.video {
     margin-right: 2px;
     margin-bottom: -2px;
     margin-left: -2px;
-    margin-left: 4em;
     padding-top: 0;
     padding-right: 30px;
     padding-bottom: 40px;
     padding-left: 4em;
+}
+
+.containerAudio {
+    border: 1px solid #333333;
+    padding: 20px;
 }
 
 h5.audio {
@@ -58,11 +58,8 @@ h5.audio {
     border-color: green;
     border-radius: 2em;
     border-top-right-radius: 15% 25%;
-    margin-top: 2px;
-    margin-right: 2px;
-    margin-bottom: -2px;
-    margin-left: -2px;
-    margin-left: 4em;
+    margin: 2px 2px -2px -2px;
+    padding: 0 30px 40px 4em;
 }
 
 p > b {
