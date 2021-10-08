@@ -11,16 +11,48 @@ h2.date {
     color: rgb(57, 100, 68);
 }
 
-h3 + h4 {
-    
+h3 + h4{
+    color: rebeccapurple;
+    border-width: 1px;
+    border-style: solid;
+    border-color: blue;
+    border-top-right-radius: 10% 25%;
+    margin-top: 2px;
+    margin-right: 2px;
+    margin-bottom: -2px;
+    margin-left: -2px;
+    margin-left: 4em;
 }
     
-h4 {
+ol ~ h4 {
     color: hsl(34, 85%, 46%);
 }
 
-h3 ~ h5 {
+.containerVideo {
+    border: 1px solid #333333;
+    padding: 20px;
+}
+
+h5.video {
     color: rebeccapurple;
+    border-width: 1px;
+    border-style: solid;
+    border-color: green;
+    border-radius: 2em;
+    border-top-right-radius: 15% 25%;
+    margin-top: 2px;
+    margin-right: 2px;
+    margin-bottom: -2px;
+    margin-left: -2px;
+    margin-left: 4em;
+    padding-top: 0;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    padding-left: 4em;
+}
+
+h5.audio {
+    color: blue;
     border-width: 1px;
     border-style: solid;
     border-color: green;
