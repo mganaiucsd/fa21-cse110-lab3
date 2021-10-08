@@ -15,8 +15,8 @@ h4 {
     color: hsl(34, 85%, 46%);
 }
 
-section > p {
-    font-size: 0.7em;
+p > b {
+    font-size: 1.5em;
     color: #441315;
 }
 
