@@ -45,7 +45,7 @@ body {
     justify-self: center;
 }
 
-a[target="_important"] {
+a[target="_impLink"] {
     background-color: rgb(247, 218, 199);
   }
 
