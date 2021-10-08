@@ -21,31 +21,31 @@
                 </ul>
             </nav>
         </header>
+        <style>
+            h2 {
+              color: hsl(230, 45%, 62%);
+              margin-left: 40px;
+            } 
+        </style>
         <main> 
             <h1 style="color:red;"> Calendar Utility Brainstorming Ideas</h1>
-            <style>
-                h2 {
-                  color: hsl(230, 45%, 62%);
-                  margin-left: 40px;
-                } 
-            </style>
             <h2> Brainstorming Session</h2>
             <h2 class="date"> October 2nd, 2021</h2>
             <h3 id="attendance_list">Attendance List</h3>
             <ol class="names">
-                <li> Aaron </li>
-                <li> Bart </li>
-                <li> Chloe </li>
+                <li><b> Aaron </b></li>
+                <li><b> Bart </b></li>
+                <li><b> Chloe </b></li>
 
             </ol>
             <h3 id="agenda">Agenda</h3>
             <h4> Unfinished work from last week (<em>These are urgent!</em>) </h4>
-            <ol>
+            <ol class="lastWork">
                 <li><i> Finalize type of calendar </i></li>
                 <li><i> Finalize purpose (event based or note based) </i></li>
             </ol>
             <h4> New work for this week </h4>
-            <ol>
+            <ol class="newWork">
                 <li><i> Discuss high-level structure </i></li>
                 <li><i> Discuss potential management tasks </i></li>
             </ol>
@@ -80,7 +80,7 @@
 
             <details>
                 <summary>tl;dr</summary>
-                <p>Calendar will have 3 services: client, event handler, event database. User interacts with client, event handler creates/removes/edits events, event database stores event information.</p>
+                <p class="tldr">Calendar will have 3 services: client, event handler, event database. User interacts with client, event handler creates/removes/edits events, event database stores event information.</p>
             </details>
         </section>
         <hr />
