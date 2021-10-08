@@ -15,20 +15,20 @@ h4 {
     color: hsl(34, 85%, 46%);
 }
 
-p.todo {
+section > p {
     font-size: 1.5em;
     color: #441315;
 }
 
-.names, li {
+.names li {
     font-size: 1.3rem;
 }
 
-.lastWork, li, i {
+li, b {
     width: 50vw;
 }
 
-.nextWork, li, i {
+.nextWork li i {
     font-size: 15pt;
 }
 
@@ -36,7 +36,7 @@ p.tldr {
     font-size: 4mm;
 }
 
-.miscList, li, i {
+.miscList li i {
     font-size: 20px;
 }
 
