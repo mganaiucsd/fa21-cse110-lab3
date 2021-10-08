@@ -91,7 +91,7 @@ ol ~ h4 {
 }
 
 h5.video {
-    position: fixed;
+    position: relative;
     left: 2px;
     min-width: 500px;
     color: rebeccapurple;
