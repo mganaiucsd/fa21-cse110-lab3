@@ -14,11 +14,7 @@ h2.date {
 h3 + h4 {
     
 }
-    /*margin-top: 2px;
-    margin-right: 2px;
-    margin-bottom: -2px;
-    margin-left: -2px;
-    margin-left: 4em;*/
+    
 h4 {
     color: hsl(34, 85%, 46%);
 }
@@ -30,7 +26,11 @@ h3 ~ h5 {
     border-color: green;
     border-radius: 2em;
     border-top-right-radius: 15% 25%;
-    
+    margin-top: 2px;
+    margin-right: 2px;
+    margin-bottom: -2px;
+    margin-left: -2px;
+    margin-left: 4em;
 }
 
 p > b {
