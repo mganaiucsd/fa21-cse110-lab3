@@ -20,7 +20,7 @@ h4 {
 }
 
 h3 ~ h5 {
-    color: red;
+    color: rebeccapurple;
     border-width: 1px;
     border-style: solid;
     border-color: green;
