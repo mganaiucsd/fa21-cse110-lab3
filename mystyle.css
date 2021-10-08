@@ -45,7 +45,7 @@ body {
     justify-self: center;
 }
 
-a[target="_impLink"] {
+a[target="agenda-to-link"] {
     background-color: rgb(247, 218, 199);
   }
 
