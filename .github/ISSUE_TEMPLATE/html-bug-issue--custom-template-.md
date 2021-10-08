@@ -1,10 +1,10 @@
 ---
-name: HTML Bug Issue (Custom Template)
-about: This issue is raised when there is a specific issue with HTML code
-title: "[HTML BUG]"
-labels: HTML bug
+name: CSS Bug Issue (Custom Template)
+about: This issue is raised when there is a specific issue with CSS code
+title: "[CSS BUG]"
+labels: CSS bug
 assignees: mganaiucsd
 
 ---
 
-# There is an issue with the HTML code.
+# There is an issue with the CSS code.
