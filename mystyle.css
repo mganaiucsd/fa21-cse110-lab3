@@ -90,7 +90,7 @@ p.tldr {
 }
 
 b.number {
-    display: none;
+    display: inline-block;
 }
 /*
 .miscList li i {
