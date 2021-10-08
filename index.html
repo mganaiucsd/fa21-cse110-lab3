@@ -12,13 +12,21 @@
         <header> 
             <div> Meeting Notes for week 3 </div>
             <nav> 
-                <ul> 
-                    <li> <a href="#attendance_list">Attendance List</a> </li>
-                    <li> <a href="#agenda">Agenda</a> </li>
-                    <li> <a href="#miscellaneous">Miscellaneous</a> </li>
-                    <li> <a href="#brainstorming_pictures">Brainstorming Pictures</a> </li>
-                    <li> <a href="#recording">Recording</a> </li>
-                </ul>
+                <div class="flexcont"> 
+                    <a href="#attendance_list">Attendance List</a>
+                    <a href="#agenda" target="_important">Agenda</a>
+                    <a href="#miscellaneous">Miscellaneous</a>
+                    <a href="#brainstorming_pictures">Brainstorming Pictures</a>
+                    <a href="#recording">Recording</a>
+                </div>
+                
+                <br />
+
+                <div class="gridcont"> 
+                    <a href="#ourtodo"> Todo Access</a>
+                    <a href="#ouravail"> Availability Access</a>
+                    <a href="#ourwork"> New Work Access</a>
+                </div>
             </nav>
         </header>
         <style>
@@ -44,21 +52,21 @@
                 <li><i> Finalize type of calendar </i></li>
                 <li><i> Finalize purpose (event based or note based) </i></li>
             </ol>
-            <h4> New work for this week </h4>
+            <h4 id="ourwork"> New work for this week </h4>
             <ol class="newWork">
                 <li><i> Discuss high-level structure </i></li>
                 <li><i> Discuss potential management tasks </i></li>
             </ol>
             <h3 id="miscellaneous">Miscellaneous</h3>
-            <ol class="miscList">
+            <ul class="miscList">
                 <li><i> Estimated resource, time, cost </i></li>
                 <li><i> Future generalizations/features </i></li>
-            </ol>
+            </ul>
 
         </main>
         <hr />
         <section> 
-            <h3>ToDo</h3>
+            <h3 id="ourtodo">ToDo</h3>
             <p class="todo"> We <strong> need </strong> to consider the following steps for the structure of our databases. </p>
             <h3 id="brainstorming_pictures"> Brainstorming Pictures</h3>
             <p>Sorry for the typo, should be <b> Calendar</b> not Calender. </p>
@@ -93,7 +101,7 @@
         </section>
         <hr />
         <footer>
-            <h3> Next meeting availability </h3>
+            <h3 id="ouravail"> Next meeting availability </h3>
             <form onsubmit="alert('Available')">
                 <fieldset>
                     <label for="Name">Name</label><br />

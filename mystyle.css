@@ -2,6 +2,47 @@ body {
     background-color: rgb(247, 236, 207);
 }
 
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: rgb(135, 233, 240);
+    }
+}
+
+.flexcont {
+    display: flex;
+    background-color: rgb(20, 158, 73);
+    column-gap: 20px;
+    align-items: stretch;
+    align-self: auto;
+}
+  
+.flexcont > a {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.gridcont {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    background-color: #e91010;
+    padding: 10px;
+}
+
+.gridcont > a {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    justify-self: center;
+}
+
+a[target="_important"] {
+    background-color: rgb(255, 102, 0);
+  }
+
 /* This is the miscellaneous heading section 
 #miscellaneous {
     color: green;
@@ -108,4 +149,12 @@ b.number {
 #brainstorming_pictures {
     
     color: rgb(88, 170, 20);
+}
+
+button:hover {
+    color: purple;
+}
+
+button:active {
+    color: greenyellow;
 }
