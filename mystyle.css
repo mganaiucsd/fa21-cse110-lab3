@@ -4,7 +4,7 @@ body {
 
 /* This is the miscellaneous heading section */
 #miscellaneous {
-    color: green;
+    /*color: green;*/
 }
 
 h2.date {
@@ -13,6 +13,15 @@ h2.date {
 
 h4 {
     color: hsl(34, 85%, 46%);
+}
+
+h3 ~ h5 {
+    border-width: 1px;
+    border-style: solid;
+    border-color: green;
+    border-radius: 1em;
+    border-top-right-radius: 10% 30%;
+    
 }
 
 p > b {
@@ -37,7 +46,7 @@ p.tldr {
 }
 
 .miscList li i {
-    font-size: 20px;
+    /*font-size: 20px;*/
 }
 
 #brainstorming_pictures {
