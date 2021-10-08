@@ -2,10 +2,10 @@ body {
     background-color: rgb(247, 236, 207);
 }
 
-/* This is the miscellaneous heading section */
+/* This is the miscellaneous heading section 
 #miscellaneous {
-    /*color: green;*/
-}
+    color: green;
+}*/
 
 h1 {
     text-decoration: underline wavy orangered;
@@ -70,7 +70,7 @@ h5.audio {
 p > b {
     font-size: 1.5em;
     color: #441315;
-    display: inline-block;
+    display: inline;
 }
 
 .names li {
@@ -82,7 +82,7 @@ li, b {
 }
 
 li b.justme {
-    display: none;
+    display: block;
 }
 
 .nextWork li i {
@@ -92,10 +92,11 @@ li b.justme {
 p.tldr {
     font-size: 4mm;
 }
-
+/*
 .miscList li i {
-    /*font-size: 20px;*/
+    font-size: 20px;
 }
+*/
 
 #brainstorming_pictures {
     
