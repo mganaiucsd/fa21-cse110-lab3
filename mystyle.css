@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(247, 236, 207);
+}
+
+/* This is the miscellaneous heading section */
+#miscellaneous {
+    color: green;
+}
+
+h2.date {
+    color: rgb(57, 19, 68);
+}
+
+#agenda {
+    color: hsl(34, 85%, 46%);
+}
+
+p.todo {
+    color: #441315;
+}
+
+.names li {
+    font-size: 1.3rem;
+}
+
+.miscList li {
+    font-size: 16px;
+}
